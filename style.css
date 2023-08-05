@@ -209,7 +209,7 @@ a{
     color: #045be6;
     display: inline-block;
     margin: 10px 0;
-    
+
 
 }
 
@@ -220,6 +220,44 @@ a{
     flex-basis: 25%;
     align-self: flex-start;
 }
+.sidebar-news{
+    background: #fff;
+    padding: 10px 25px;
+}
+.info-icon{
+    width: 15px;
+    float: right;
+    margin-top: 10px;
+}
+.sidebar-news h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 15px 30px; 
+}
+.sidebar-news a{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.sidebar-news span{
+    font-size: 12px;
+}
+.read-more-link{
+    color: #045be6;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+
+
+
+
+
+
+
 
 /* ---------------------main-content---------------- */
 
