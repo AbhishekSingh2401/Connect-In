@@ -194,6 +194,9 @@ a{
     color: #888;
     margin: 3px 0;
 }
+.sidebar-activity a:hover{
+    background-color: lightgrey;
+}
 .sidebar-activity a img{
     width: 20px;
     margin-right: 10px;
@@ -209,10 +212,7 @@ a{
     color: #045be6;
     display: inline-block;
     margin: 10px 0;
-
-
 }
-
 
 /* ---------------------right-sidebar---------------- */
 
@@ -242,15 +242,75 @@ a{
     margin-top: 15px;
     margin-bottom: 5px;
 }
+/* .sidebar-news a:hover,span:hover{
+    background-color: lightgrey;
+} */
 .sidebar-news span{
     font-size: 12px;
 }
-.read-more-link{
+/* .sidebar-news span:hover{
+    background-color: lightgrey;
+} */
+.sidebar-news .read-more-link{
     color: #045be6;
     font-weight: 500;
     margin: 20px 0 10px;
 }
-
+.sidebar-ad{
+    background: #fff;
+     padding: 15px 25px;
+     text-align: center;
+     margin: 12px 0;
+     font-size: 12px;
+}
+.sidebar-ad img{
+    width: 60px;
+    border-radius: 50%;
+    margin: 4px;
+}
+.sidebar-ad small{
+    float: right;
+    font-weight: 500;
+}
+.sidebar-ad p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.sidebar-ad b{
+    display: block;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.ad-link{
+    display: inline-block;
+    border: 1px solid #045be6;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #045be6;
+    font-weight: 500;
+    margin: 20px 10px;
+}
+.sidebar-useful-links{
+    padding: 15px 25px;
+    text-align: center;
+}
+.sidebar-useful-links a{
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 8px;
+}
+.copyright-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.copyright-msg img{
+    width: 18px;
+    margin-right: 4px;
+}
 
 
 
