@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkedIn</title>
+    <title>ConnectIn</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -41,7 +41,7 @@
                 <img src="images/abhishek.JPG">
                 <div>
                     <h3>Abhishek Kumar Singh</h3>
-                    <a href="#">View Profile</a>
+                    <a href="profile.html">View Profile</a>
                 </div>
             </div>
             <hr>
@@ -100,7 +100,7 @@
             </div>
         </div>
 
-        <div class="sidebar-activity">
+        <div class="sidebar-activity" id="sidebarActivity">
             <h3>RECENT</h3>
             <a href="#"><img src="images/recent.png"> Web Development</a>
             <a href="#"><img src="images/recent.png"> User Interface</a>
@@ -122,6 +122,8 @@
                 <a href="#">Discover More</a>
             </div>
         </div>
+
+        <p id="showmorelink" onclick="toggleActivity()">Show more <b>+</b></p>
     </div>
 
 
