@@ -35,15 +35,16 @@ body {
     font-size: 30px;
     font-weight: 900;
     color: #008006;
+    border-radius: 50px;
 }
 
 
-.in {
+.in{
     color: #fff;
     background: #008006;
+    border-radius: 10px;
 }
-
-.text h2 {
+.text h2{
     text-align: center;
     font-weight: 700;
     margin: 25px 0;
@@ -178,5 +179,7 @@ footer ul li {
     color: #fff;
     background: #008006;
     font-size: 15px;
+    border-radius: 10px;
+
 }
 
